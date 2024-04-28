@@ -228,3 +228,29 @@
     transform: rotate(0deg);
   }
 }
+
+.dawnText {
+  text-align: center;
+  font-size: 7em;
+  background: -webkit-linear-gradient(45deg, darkorange, #8B0000); /* darker gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 15px rgba(255, 140, 0, 0.7); /* more obvious glow */
+  filter: blur(0.5px); /* Gaussian blur */
+  animation: slide 4s infinite;
+}
+
+@keyframes slide {
+  0% { 
+    transform: translateY(-20%); 
+    opacity: 0; 
+  }
+  50% { 
+    transform: translateY(0); 
+    opacity: 1; 
+  }
+  100% { 
+    transform: translateY(-20%); 
+    opacity: 0; 
+  }
+}
