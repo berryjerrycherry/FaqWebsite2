@@ -18,15 +18,15 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-</div>
+      </div>
 
       <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+                <a
+            href="/UserManual.pdf" // Path to your PDF file
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
           <h2>
             User Manual <span>-&gt;</span>
           </h2>
@@ -34,7 +34,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/MinimumSpecs.pdf"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -46,7 +46,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/HowToPlay.pdf"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -58,7 +58,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/FAQ.pdf"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
