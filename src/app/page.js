@@ -34,7 +34,7 @@ export default function Home() {
         </a>
 
         <a
-          href="/MinimumSpecs.pdf"
+          href="/MinSpecs.pdf"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
